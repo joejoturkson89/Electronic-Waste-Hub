@@ -88,7 +88,7 @@ nav {
 
 .nav__links a {
     font-weight: 700;
-    color:;
+    color:
 }
 
 .nav__links a:hover {
@@ -195,13 +195,15 @@ nav {
 .content {
     padding-block: 0 5rem;
     padding-inline: 2rem;
-    text-align:center;
+    text-align:left;
 }
 
 .content h6 {
-    padding-block: 0.5rem;
+    padding-block: 0 5rem;
     padding-inline: 2rem;
     text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
 
 }
 
@@ -246,7 +248,7 @@ nav {
     font-size: 0.9rem;
     font-weight: 600;
     color: var(--text-dark);
-    background-color:coral;
+    background-color:rgb(80, 255, 144);
     border: 5px solid var(--white);
     border-bottom: none;
 }
@@ -269,7 +271,7 @@ nav {
     align-items: center;
     gap: 0.5rem;
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--text-dark);
     background-color:coral;
     border: 5px solid var(--white);
