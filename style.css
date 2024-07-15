@@ -195,11 +195,18 @@ nav {
 .content {
     padding-block: 0 5rem;
     padding-inline: 2rem;
-    text-align: center;
+    text-align:center;
+}
+
+.content h6 {
+    padding-block: 0.5rem;
+    padding-inline: 2rem;
+    text-align: left;
+
 }
 
 .content h4 {
-    margin-bottom: 1rem;
+    margin-bottom: 9rem;
     font-size: 1rem;
     font-weight: 500;
     color: var(--text-dark);
@@ -245,6 +252,31 @@ nav {
 }
 
 .location span {
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.contact {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    background-color:coral;
+    border: 5px solid var(--white);
+    border-bottom: none;
+}
+
+.contact {
     padding: 5px 10px;
     font-size: 1.5rem;
     color: var(--text-dark);
@@ -330,15 +362,6 @@ nav {
 
 
 }  
-
-.content h5 {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
 
 @media (width > 1024px) {
